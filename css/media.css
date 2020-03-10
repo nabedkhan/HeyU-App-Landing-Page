@@ -1,0 +1,96 @@
+/* // Extra_Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px)
+{ ... }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{ ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+.menu ul li {
+    margin-left: 0px;
+}
+.hero-content {
+    margin-top: 50px;
+}
+.hero-content h1 {
+    font-size: 48px;
+}
+.hero-content p {
+    font-size: 17px;
+}
+.background:after {
+    border-top: 150px solid transparent;
+}
+.easy-content {
+    margin-top: 100px;
+}
+.easy-content h1 {
+    font-size: 42px;
+}
+.easy-content p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.feature:after {
+    display: none;
+}
+.feature-content p {
+    font-size: 17px;
+}
+.newsletter-heading h1 {
+    font-size: 48px;
+}
+.form input {
+    width: 500px;
+}
+.form button {
+    right: 110px;
+}
+.footer-menu ul li {
+    margin-right: 30px !important;
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+
+.hero-content {
+    margin-top: 60px;
+}
+.hero-content button {
+    margin-top: 60px;
+}
+.hero-content p {
+    font-size: 23px;
+}
+.background:after {
+    border-top: 220px solid transparent;
+}
+.easy-content {
+    margin-top: 150px;
+}
+.easy-content p {
+    font-size: 17px;
+}
+.feature-content h3 {
+    font-size: 24px;
+}
+.feature-content p {
+    font-size: 16px;
+    letter-spacing: normal;
+}
+.form button {
+    right: 183px;
+}
+.footer-menu ul li {
+    margin-right: 20px !important;
+}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+{ ... }
